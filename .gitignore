@@ -1,0 +1,38 @@
+# Artefactos de compilación de Maven
+target/
+
+# Archivos .class compilados
+*.class
+
+# Logs y temporales de la JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# macOS
+.DS_Store
+
+# Wrapper de Maven (descargado, no se versiona el jar)
+.mvn/wrapper/maven-wrapper.jar
